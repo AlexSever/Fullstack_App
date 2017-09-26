@@ -31,7 +31,7 @@ require('./routes/authRoutes')(app);
 
 // console.developers.google.com
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, function() {
     console.log("Express server is up on port " + PORT);
